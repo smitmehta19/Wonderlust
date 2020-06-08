@@ -204,3 +204,151 @@ body{
 .content-3 .row .col-md-3{
     padding: 0%;
 }
+
+/* ****************************************************** */
+
+.content-4 .nav{
+    justify-content: center;
+    margin: 5%;
+}
+.content-4 .nav-tabs{
+    margin: 2px;
+    border: 1px solid rgb(232, 232, 232);
+    border-bottom: 0px;
+    text-align: center;
+    cursor: pointer;   
+    background-color: #EDF2F4;
+}
+.content-4 .tab-item{
+    text-decoration: none;
+    color: #3F494C;
+}
+.content-4 .tab-item i{
+    display: block;
+    font-size: 45px;
+    padding: 0.4em 1.7em 0em 1.7em;
+}
+.content-4 .tab-item span{
+    display: inline-block;
+    padding-bottom: 1em;
+    width: 100%;
+}
+.content-4 .tab-item.active{
+    color: #EF233C;
+}
+
+.tab-content{
+    margin-bottom: 5%;
+    transition: all 400ms ease;
+}
+
+/* ************************************************ */
+
+
+/* ************************************************** */
+/* ***************** Content 5 ********************** */
+/* ************************************************** */
+
+.content-5 .row{
+    margin-top: 8%;
+}
+.content-5 .member-1 .avatar{
+    margin: 20px 0px;
+}
+.content-5 .curcle{
+    border-radius:100px;
+    width: 35%;
+    padding-top: 35px;
+    position: relative;
+    z-index: 4;
+}
+.content-5 .avatar span::after{
+    content: "";
+    width: 90%;
+    height: 100px;
+    background-color: #EDF2F4;
+    position: absolute;
+    display: block;
+    top: 3px;
+    z-index: 0;
+}
+.content-5 .member-1 .desc .info{
+    padding-top: 8%;
+    font-size: 14px;
+}
+.content-5 .social-icon{
+    background-color: #EDF2F4;
+    padding: 4%;
+}
+.content-5 .social-icon span{
+    border: 1px solid rgba(123, 123, 123,0.2);
+    padding: 4px 8px;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all 500ms ease;   
+}
+
+.content-5 .social-icon span:hover{
+    background-color: #E30022;
+    color: white;
+    
+}
+/* **************************************************** */
+
+/* ****************************************************** */
+/* ********************* Content 6 ********************** */
+/* ****************************************************** */
+
+.content-6{
+    margin-bottom: 5%;
+}
+.content-6 .contact span{
+    color: #EF233C
+}
+.content-6 .contact{
+    margin-bottom: 5%;
+}
+
+/* ********************************************************** */
+
+/* ****************************************************** */
+/* ******************** footer ************************** */
+/* ****************************************************** */
+
+footer{
+    padding-top: 4%;
+    background-color: black;
+    margin: 0px;
+    position: relative;
+}
+footer span{
+    padding: 0.3em 0.7em;
+    color: white;
+    background-color:#242423;
+    border-radius: 50%;
+    margin: 13px 3px;
+    transition: all 500ms ease;
+}
+footer span:hover{
+    color: #3F494C;
+    background-color: white;
+}
+footer p{
+    margin: 0px;
+    color: #3F494C;
+    font-size: 13px;
+    padding-bottom: 8px;
+}
+
+.top a{
+    position: absolute;
+    right: 2%;
+    top: 69%;
+    color: #3F494C;
+    transition: all 500ms ease;
+}
+.top a:hover{
+    color: #F7FFF7;
+}
+/* ***************************************************** */
+
