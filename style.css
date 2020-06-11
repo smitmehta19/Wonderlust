@@ -43,6 +43,7 @@ body{
     margin: 5% 0%;
 }
 .title-text{
+    text-align: center;
     width: 50vw;
     height: 5vh;
     font-size: 1.4em;
@@ -85,6 +86,7 @@ body{
 }
 
 .content-1 .curcle{
+    align-content: center;
     height: 100px;
     width: 100px;
     border-radius: 50%;
